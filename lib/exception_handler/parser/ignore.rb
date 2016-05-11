@@ -9,7 +9,7 @@ module ExceptionHandler
 
       #Matches?
       def match?
-        return true if errors.include?(@exception.class) && @request.referer.blank?
+        return true if errors.include?(@exception.class)
         return true if @request.user_agent =~ bots
       end
 
