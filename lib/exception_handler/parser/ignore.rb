@@ -15,7 +15,7 @@ module ExceptionHandler
 
       private
 
-      #Has to be instance vars for env to handle ActionController::RoutingError constant etc
+      #Has to be instance vars for env to handle ActionController::RoutingError constant etc...
 
       #Errors
       def errors #-> http://ruby-doc.org/core-2.2.0/Array.html#class-Array-label-Creating+Arrays
